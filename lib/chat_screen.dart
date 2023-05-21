@@ -26,9 +26,9 @@ class _ChatScreenState extends State<ChatScreen> {
   void initState() {
     super.initState();
     openAI = OpenAI.instance.build(
-      token: "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",
+      token: "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",
       baseOption: HttpSetup(receiveTimeout: const Duration(seconds: 10)),
-      isLog: true,
+      enableLog: true,
     );
   }
 
